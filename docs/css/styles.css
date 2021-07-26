@@ -11033,6 +11033,10 @@ p {
   }
 }
 
+.custom-carousel-text {
+  text-shadow: 2px 2px 4px black;
+}
+
 .list-hours {
   font-size: 0.9rem;
 }
