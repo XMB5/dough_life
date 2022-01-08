@@ -17,78 +17,68 @@ html(lang='en')
 
 npo
 
-        section.page-section
-            .container
-                #cones.carousel.slide(data-bs-ride='carousel')
-                    .carousel-indicators
-                        button.active(type='button' data-bs-target='#cones' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
-                        button(type='button' data-bs-target='#cones' data-bs-slide-to='1' aria-label='Slide 2')
-                        button(type='button' data-bs-target='#cones' data-bs-slide-to='2' aria-label='Slide 3')
-                    .carousel-inner
-                        .carousel-item.active
-                            img.d-block.w-100(src='assets/img/about.jpg' alt='...')
-                            .carousel-caption.d-none.d-md-block.custom-carousel-text
-                                h5 First slide label
-                                p Some representative placeholder content for the first slide.
-                        .carousel-item
-                            img.d-block.w-100(src='assets/img/array_dense.jpg' alt='...')
-                            .carousel-caption.d-none.d-md-block.custom-carousel-text
-                                h5 Second slide label
-                                p Some representative placeholder content for the second slide.
-                        .carousel-item
-                            img.d-block.w-100(src='assets/img/array_light.jpg' alt='...')
-                            .carousel-caption.d-none.d-md-block.custom-carousel-text
-                                h5 Third slide label
-                                p Some representative placeholder content for the third slide.
-                    button.carousel-control-prev(type='button' data-bs-target='#cones' data-bs-slide='prev')
-                        span.carousel-control-prev-icon(aria-hidden='true')
-                        span.visually-hidden Previous
-                    button.carousel-control-next(type='button' data-bs-target='#cones' data-bs-slide='next')
-                        span.carousel-control-next-icon(aria-hidden='true')
-                        span.visually-hidden Next
+    section.page-section
+        .container
+            #cones.carousel.slide(data-bs-ride='carousel')
+                .carousel-indicators
+                    button.active(type='button' data-bs-target='#cones' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='1' aria-label='Slide 2')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='2' aria-label='Slide 3')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='3' aria-label='Slide 4')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='4' aria-label='Slide 5')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='5' aria-label='Slide 6')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='6' aria-label='Slide 7')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='7' aria-label='Slide 8')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='8' aria-label='Slide 9')
+                    button(type='button' data-bs-target='#cones' data-bs-slide-to='9' aria-label='Slide 10')
+                .carousel-inner
+                    .carousel-item.active
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Americano_1 - Copy.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Americano
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Brownie-Batter_1 - Copy.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Brownie Batter
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Classic-Chip_1 - Copy.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Classic Chip
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Mint-Dynasty_1.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Mint Dynasty
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Monster-LOTP_1 - Copy.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Monster LOTP
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Monster-M_M_1.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Monster M
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Old-Fashioned_1.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Old Fashioned
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Red-King-Caramel_1.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Red King Caramel
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Red-Lady-in-Red_1.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Red Lady in Red
+                    .carousel-item
+                        img.d-block.w-100(src='assets/img/DL_General_Group_Tuxedo_1.jpg' alt='...')
+                        .carousel-caption.d-none.d-md-block.custom-carousel-text
+                            h5 Tuxedo
+        button.carousel-control-prev(type='button' data-bs-target='#cones' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+        button.carousel-control-next(type='button' data-bs-target='#cones' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
 
-        section.page-section
-            .container
-                .product-item
-                    .product-item-title.d-flex
-                        .bg-faded.p-5.d-flex.ms-auto.rounded
-                            h2.section-heading.mb-0
-                                span.section-heading-upper Velvet & White Chocolate
-                                span.section-heading-lower Lady in Red
-                    img.product-item-img.mx-auto.d-flex.rounded.img-fluid.mb-3.mb-lg-0(src='assets/img/lady_in_red.jpg' alt='...')
-                    .product-item-description.d-flex.me-auto
-                        .bg-faded.p-5.rounded
-                            p.mb-0
-                                | Edible Cookie Dough Red Velvet with White Chocolate Morsels. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.
+    include includes/footer
 
-        section.page-section
-            .container
-                .product-item
-                    .product-item-title.d-flex
-                        .bg-faded.p-5.d-flex.me-auto.rounded
-                            h2.section-heading.mb-0
-                                span.section-heading-upper Mini Chocolate Morsels
-                                span.section-heading-lower Classic Chip
-                    img.product-item-img.mx-auto.d-flex.rounded.img-fluid.mb-3.mb-lg-0(src='assets/img/classic_chip.jpg' alt='...')
-                    .product-item-description.d-flex.ms-auto
-                        .bg-faded.p-5.rounded
-                            p.mb-0
-                                | Edible Cookie Dough with Mini Chocolate Morsels. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.
-
-        section.page-section
-            .container
-                .product-item
-                    .product-item-title.d-flex
-                        .bg-faded.p-5.d-flex.ms-auto.rounded
-                            h2.section-heading.mb-0
-                                span.section-heading-upper Oreo Cookies
-                                span.section-heading-lower The Tuxedo
-                    img.product-item-img.mx-auto.d-flex.rounded.img-fluid.mb-3.mb-lg-0(src='assets/img/tuxedo.jpg' alt='...')
-                    .product-item-description.d-flex.me-auto
-                        .bg-faded.p-5.rounded
-                            p.mb-0
-                                | Edible Cookie Dough with Oreo Cookies. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.
-
-        include includes/footer
-
-        include includes/scripts
+    include includes/scripts
